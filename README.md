@@ -2,7 +2,8 @@
 
 A simple React application that generates QR codes from a phone number or text.
 
-## Preview
+## Preview 
+-this is an example of wellcomming
 ![Scan to Call App Preview](./public/image.png)
 
 ## Features
