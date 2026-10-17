@@ -1,16 +1,23 @@
-# React + Vite
+# Scan to Call
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that generates QR codes from a phone number or text.
 
-Currently, two official plugins are available:
+## Preview
+![Scan to Call App Preview](./public/image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Generate QR codes instantly.
+- Enter a phone number or text.
+- Simple and user-friendly interface.
 
-## React Compiler
+## Technologies
+- React
+- JavaScript
+- qrcode.react
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm install qrcode.react
+npm run dev
