@@ -2,9 +2,9 @@
 
 A simple React application that generates QR codes from a phone number or text.
 
-## Preview 
--this is an example of wellcomming
+## Preview  // this is an example 
 ![Scan to Call App Preview](./public/image.png)
+
 
 ## Features
 - Generate QR codes instantly.
